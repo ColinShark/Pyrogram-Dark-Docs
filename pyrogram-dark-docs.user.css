@@ -1,0 +1,25 @@
+/* ==UserStyle==
+@name           Pyrogram Dark Docs
+@namespace      github.com/ColinTheShark/PyrogramDarkDocs
+@version        0.0.1
+@description    A UserCSS to give Pyrograms Documentation a dark theme.
+@author         ColinShark
+==/UserStyle== */
+@-moz-document domain("docs.pyrogram.org") {
+    .wy-nav-content-wrap,
+    .wy-nav-content,
+    .wy-menu li.current > a {
+        background-color: #333;
+        border-radius: 0;
+        color: #ccc;
+    }
+    .wy-side-nav-search {
+        background-color: #333;
+    }
+    .rst-content .guilabel {
+        background-color: #555
+    }
+    .rst-content div[class^=highlight] pre {
+        background-color: #222;
+    }
+}
