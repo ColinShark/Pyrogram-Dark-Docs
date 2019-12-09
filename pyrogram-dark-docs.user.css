@@ -28,4 +28,8 @@
     .rst-content div[class^=highlight] pre {
         background-color: #222;
     }
+    .rst-content code.literal {
+        background-color: #bbb;
+        color: #111;
+    }
 }
