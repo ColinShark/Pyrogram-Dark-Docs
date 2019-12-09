@@ -22,7 +22,8 @@ Please note that Stylish is known for [sending your entire brower history over t
 
 ## License
 
-Creative Commons - CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/
+| Creative Commons - CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/ |
+| --- | --- |
 
 [UserCSS]: https://github.com/openstyles/stylus/wiki/Usercss#what-is-usercss
 [PyTorch]: https://userstyles.org/styles/140001/pytorch-docs-dark
