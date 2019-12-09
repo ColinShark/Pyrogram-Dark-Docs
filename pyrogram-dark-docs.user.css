@@ -17,7 +17,10 @@
         color: #ccc;
     }
     .wy-side-nav-search {
-        background-color: #333;
+        background-color: #999;
+    }
+    .wy-side-nav-search>div.version {
+        color: #101010;
     }
     .rst-content .guilabel {
         background-color: #555
