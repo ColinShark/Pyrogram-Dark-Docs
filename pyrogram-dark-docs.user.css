@@ -9,6 +9,8 @@
 @updateURL      https://raw.githubusercontent.com/ColinTheShark/Pyrogram-Dark-Docs/master/pyrogram-dark-docs.user.css
 ==/UserStyle== */
 @-moz-document domain("docs.pyrogram.org") {
+
+    /* Main content */
     .wy-nav-content-wrap,
     .wy-nav-content,
     .wy-menu li.current > a {
@@ -16,20 +18,46 @@
         border-radius: 0;
         color: #ccc;
     }
+
+    /* Search Bar and Logo */
     .wy-side-nav-search {
         background-color: #999;
     }
-    .wy-side-nav-search>div.version {
+
+    /* Version Text */
+    .wy-side-nav-search > div.version {
         color: #101010;
     }
-    .rst-content .guilabel {
+
+    /* Keyboard Buttons */
+    .rst-content span.guilabel {
         background-color: #555
     }
+
+    /* Formatted Code Blocks */
     .rst-content div[class^=highlight] pre {
         background-color: #222;
     }
+
+    /* Inline Code */
     .rst-content code.literal {
         background-color: #bbb;
         color: #111;
+    }
+
+    /* Tip boxes */
+    .rst-content div.tip {
+        background-color: #99cc99cc;
+    }
+
+    /* Tip box Title */
+    .rst-content div.tip > .admonition-title {
+        background-color: #198c19;
+        color: #222;
+    }
+
+    /* Tip box content */
+    .rst-content div.tip > p {
+        color: #333;
     }
 }
