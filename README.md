@@ -1,4 +1,4 @@
-# Pyrogrm Dark Docs
+# Pyrogram Dark Docs
 
 Ever got your eyes burned out by a bright UI?
 
