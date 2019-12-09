@@ -4,6 +4,9 @@
 @version        0.0.1
 @description    A UserCSS to give Pyrograms Documentation a dark theme.
 @author         ColinShark
+@homepageURL    https://github.com/ColinTheShark/Pyrogram-Dark-Docs
+@supportURL     https://github.com/ColinTheShark/Pyrogram-Dark-Docs/issues
+@updateURL      https://raw.githubusercontent.com/ColinTheShark/Pyrogram-Dark-Docs/master/pyrogram-dark-docs.user.css
 ==/UserStyle== */
 @-moz-document domain("docs.pyrogram.org") {
     .wy-nav-content-wrap,
